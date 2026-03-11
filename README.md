@@ -13,7 +13,7 @@ Tecnologias e Estruturas Utilizadas\
 Linguagem: C++\
 Controle de Fluxo: Estruturas de decisão (if / else if) para roteamento do menu.\
 Loops de repetição: Estrutura do-while integrada com operadores lógicos OR (| |).\
-Tipagem de Dados: Uso de variáveis numéricas (float, int) e de caracteres (char).\
+Tipagem de Dados: Uso de variáveis numéricas (float, int) e de caracteres (char).
 
 \
 Como Executar\
