@@ -13,7 +13,7 @@ int main ( )
 	
 	do {
 	// 1. Setup e Boas-vindas
-	cout << "\n=====Bem vindo à Calculadora Zé Ruela v.0.02=====\n\n";
+	cout << "\n=====Bem vindo à Calculadora v.0.02=====\n\n";
 	
 	//2. Coleta dos inputs (Entrada)
 	cout << "Digite o primeiro número: ";	
