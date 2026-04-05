@@ -5,9 +5,9 @@ int main()
 
 {
     // Colors //
-    string const COLOR_BLUE_BOLD = "\033[1;34m";  // Corporate Blue (For the Headers and Bank Name)
-    string const COLOR_GREEN_BOLD = "\033[1;32m"; // Vault Green (For the actual money and balances)
-    string const COLOR_WHITE_BOLD = "\033[1;37m"; // Crisp White (For the text prompts)
+    string const COLOR_BLUE_BOLD = "\033[1;34m";
+    string const COLOR_GREEN_BOLD = "\033[1;32m";
+    string const COLOR_WHITE_BOLD = "\033[1;37m";
     string const COLOR_RED = "\033[1;31m";
     string const UNDERLINED_TEXT = "\033[4m";
     string const COLOR_RESET = "\033[0m";
@@ -42,7 +42,7 @@ int main()
             cin >> operation_type;
         }
 
-        // Process // 
+        // Process //
         if (operation_type == 'd' || operation_type == 'D')
         {
             cout << COLOR_WHITE_BOLD << "Enter the amount to be deposited: $ " << COLOR_RESET;
@@ -75,7 +75,7 @@ int main()
         cout << COLOR_WHITE_BOLD << "\nAccount number: " << COLOR_GREEN_BOLD << account_number << COLOR_RESET;
         cout << COLOR_WHITE_BOLD << "\nOriginal balance: " << COLOR_GREEN_BOLD << "$ " << original_balance << COLOR_RESET;
         cout << COLOR_WHITE_BOLD << "\nOperation type: " << COLOR_GREEN_BOLD << operation_name << COLOR_RESET;
-        cout << COLOR_WHITE_BOLD << "\nOperation amount: " << COLOR_GREEN_BOLD << "$ "  << operation_amount << COLOR_RESET;
+        cout << COLOR_WHITE_BOLD << "\nOperation amount: " << COLOR_GREEN_BOLD << "$ " << operation_amount << COLOR_RESET;
         cout << COLOR_WHITE_BOLD << "\nNew balance: " << COLOR_GREEN_BOLD << "$ " << new_balance << COLOR_RESET;
         if (new_balance < 0)
         {
